@@ -35,8 +35,7 @@
 <android.net.NetworkScoreManager: void registerNetworkScoreCallback(int,int,Executor,NetworkScoreCallback)>|android.permission.REQUEST_NETWORK_SCORES
 <android.hardware.usb.UsbManager: int getGadgetHalVersion()>|android.permission.MANAGE_USB
 <android.hardware.lights.SystemLightsManager: LightState getLightState(Light)>|android.permission.CONTROL_DEVICE_LIGHTS
-<android.permission.PermissionManager: // @SystemApi
-void revokeRuntimePermission(String,String,UserHandle,String)>|android.permission.REVOKE_RUNTIME_PERMISSIONS
+<android.permission.PermissionManager: void revokeRuntimePermission(String,String,UserHandle,String)>|android.permission.REVOKE_RUNTIME_PERMISSIONS
 <android.app.ActivityOptions: void setLaunchTaskId(int)>|android.permission.START_TASKS_FROM_RECENTS
 <android.telecom.TelecomManager: TelecomAnalytics dumpAnalytics()>|android.permission.DUMP
 <android.os.image.DynamicSystemManager: boolean isInstalled()>|android.permission.MANAGE_DYNAMIC_SYSTEM
@@ -609,8 +608,7 @@ CREATE_USERS
 <android.app.StatusBarManager: void registerNearbyMediaDevicesProvider(NearbyMediaDevicesProvider)>|android.permission.MEDIA_CONTENT_CONTROL
 <android.telephony.ServiceState: String getVoiceOperatorNumeric()>|android.permission.ACCESS_FINE_LOCATION|android.permission.ACCESS_COARSE_LOCATION
 <android.telephony.TelephonyManager: void setVoiceServiceStateOverride(boolean)>|android.permission.BIND_TELECOM_CONNECTION_SERVICE
-<android.permission.PermissionManager: // @SystemApi
-int getPermissionFlags(String,String,UserHandle)>|android.permission.GRANT_RUNTIME_PERMISSIONS|android.permission.REVOKE_RUNTIME_PERMISSIONS|android.permission.GET_RUNTIME_PERMISSIONS
+<android.permission.PermissionManager: int getPermissionFlags(String,String,UserHandle)>|android.permission.GRANT_RUNTIME_PERMISSIONS|android.permission.REVOKE_RUNTIME_PERMISSIONS|android.permission.GET_RUNTIME_PERMISSIONS
 <android.telephony.TelephonyCallback.DataEnabledListener: void onDataEnabledChanged(boolean,int)>|android.permission.READ_PRECISE_PHONE_STATE
 <android.permission.PermissionControllerService: String getPrivilegesDescriptionStringForProfile(String)>|android.permission.MANAGE_COMPANION_DEVICES
 <android.os.UserManager: boolean canAddMoreManagedProfiles(int,boolean)>|android.permission.MANAGE_USERS|android.permission.CREATE_USERS|android.permission.QUERY_USERS
@@ -1145,8 +1143,7 @@ CREATE_USERS
 <android.telephony.CarrierConfigManager: String getDefaultCarrierServicePackageName()>|android.permission.READ_PRIVILEGED_PHONE_STATE
 <android.hardware.biometrics.BiometricTestSession: void startEnroll(int)>|android.permission.TEST_BIOMETRIC
 <android.telephony.TelephonyManager: void requestNumberVerification(PhoneNumberRange,long,Executor,NumberVerificationCallback)>|android.permission.MODIFY_PHONE_STATE
-<android.permission.PermissionManager: // @SystemApi
-void updatePermissionFlags(String,String,int,int,UserHandle)>|android.permission.GRANT_RUNTIME_PERMISSIONS|android.permission.REVOKE_RUNTIME_PERMISSIONS
+<android.permission.PermissionManager: void updatePermissionFlags(String,String,int,int,UserHandle)>|android.permission.GRANT_RUNTIME_PERMISSIONS|android.permission.REVOKE_RUNTIME_PERMISSIONS
 <android.telecom.TelecomManager: PhoneAccountHandle getUserSelectedOutgoingPhoneAccount()>|android.permission.READ_PHONE_STATE
 <android.app.UiModeManager: int getActiveProjectionTypes()>|android.permission.READ_PROJECTION_STATE
 <android.os.UserManager: void setUserName(String)>|android.permission.MANAGE_USERS
@@ -1591,8 +1588,7 @@ MANAGE_USERS
 <android.location.LocationRequest: LocationRequest setLocationSettingsIgnored(boolean)>|android.permission.LOCATION_BYPASS
 <android.os.UserManager: long[] getSerialNumbersOfUsers(boolean)>|android.permission.MANAGE_USERS|android.permission.CREATE_USERS
 <android.telephony.TelephonyManager: String getImei(int)>|android.permission.READ_PRIVILEGED_PHONE_STATE
-<android.permission.PermissionManager: // @SystemApi
-void grantRuntimePermission(String,String,UserHandle)>|android.permission.GRANT_RUNTIME_PERMISSIONS
+<android.permission.PermissionManager: void grantRuntimePermission(String,String,UserHandle)>|android.permission.GRANT_RUNTIME_PERMISSIONS
 <android.hardware.devicestate.DeviceStateManager: void cancelStateRequest()>|android.permission.CONTROL_DEVICE_STATE
 <android.app.admin.DevicePolicyManager: void resetDefaultCrossProfileIntentFilters(int)>|android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS
 <android.app.VrManager: void setPersistentVrModeEnabled(boolean)>|android.permission.RESTRICTED_VR_ACCESS
