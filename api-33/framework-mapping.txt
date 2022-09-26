@@ -191,8 +191,7 @@
 <android.app.Activity: void unregisterRemoteAnimations()>|android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS
 <android.view.WindowManager: Region getCurrentImeTouchRegion()>|android.permission.RESTRICTED_VR_ACCESS
 <android.content.pm.PackageManager: List<ResolveInfo> queryBroadcastReceiversAsUser(Intent,int,UserHandle)>|android.permission.INTERACT_ACROSS_USERS
-<android.os.UserManager: boolean isUserSwitcherEnabled(boolean)>|android.permission.MANAGE_USERS|android.permission.// And INTERACT_ if diff profile group
-CREATE_USERS
+<android.os.UserManager: boolean isUserSwitcherEnabled(boolean)>|android.permission.MANAGE_USERS|android.permission.CREATE_USERS
 <android.app.ActivityManager: int getUidProcessState(int)>|android.permission.PACKAGE_USAGE_STATS|android.permission.INTERACT_ACROSS_USERS_FULL
 <com.android.server.app.GameManagerService: int[] getAvailableGameModes(String)>|android.permission.MANAGE_GAME_MODE
 <android.app.contentsuggestions.ContentSuggestionsManager: void setDefaultServiceEnabled(int,boolean)>|android.permission.MANAGE_CONTENT_SUGGESTIONS
